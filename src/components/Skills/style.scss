@@ -1,0 +1,80 @@
+@import "~bootstrap/scss/bootstrap";
+
+$border_radius: 5%;
+
+#skills {
+    ///padding: 2em;
+    justify-content: center;
+}
+
+.tech {
+    background-color: green;
+    height: 100%;
+    width: 0%;
+    border-radius: $border_radius;
+}
+
+#skills .react {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-name: react;
+}
+#skills .rnative {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-name: rnative;
+}
+#skills .redux {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-name: redux;
+}
+#skills .mobx {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-name: mobx;
+}
+
+.skill {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: $border_radius;
+    width: 10em;
+    height: 0.7em;
+}
+
+@keyframes react {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes rnative {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes redux {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes mobx {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}

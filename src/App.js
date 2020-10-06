@@ -1,0 +1,27 @@
+import React from 'react';
+import NavbarComponent from './components/Navbar'
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
+import './App.scss';
+import { Container } from 'react-bootstrap';
+
+
+function App() {
+  return (
+    <>
+      <NavbarComponent />
+      <Container>
+        <About />
+        <Skills />
+        <Education />
+        <Projects />
+        <Contacts />
+      </Container>
+    </>
+  );
+}
+
+export default App;
