@@ -6,14 +6,18 @@ const Skills = () => {
     return (
         <div id='skills'>
             <h4 className="display-4">Skills</h4>
-            <p>React</p>
-            <ProgressBar striped variant="success" now={60} />
-            <p>React Native</p>
-            <ProgressBar striped variant="info" now={30} />
-            <p>Redux</p>
-            <ProgressBar striped variant="warning" now={50} />
-            <p>MobX</p>
-            <ProgressBar striped variant="danger" now={20} />
+            <p>
+                <ProgressBar className='progress' animated label='React' striped variant="success" now={60} />
+            </p>
+            <p>
+                <ProgressBar className='progress' animated label='React Native' striped variant="info" now={30} />
+            </p>
+            <p>
+                <ProgressBar className='progress' animated label='Redux' striped variant="warning" now={50} />
+            </p>
+            <p>
+                <ProgressBar className='progress' animated label='MobX' striped variant="danger" now={20} />
+            </p>
         </div>
     );
 }
