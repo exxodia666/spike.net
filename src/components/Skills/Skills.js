@@ -1,40 +1,22 @@
 import React from 'react';
+import { ProgressBar } from 'react-bootstrap';
 import './style.scss';
 
 const Skills = () => {
     return (
         <div id='skills'>
-            <h3>Skills</h3>
-            <div>
-                <p>React</p>
-                <div className='skill'>
-                    <div className='react tech'>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <p>React Native</p>
-                <div className='skill'><div className='rnative tech'>
-
-                </div></div>
-            </div>
-            <div>
-                <p>Redux</p>
-                <div className='skill'><div className='redux tech'>
-
-                </div></div>
-            </div>
-            <div>
-                <p>MobX</p>
-                <div className='skill'><div className='mobx tech'>
-
-                </div></div>
-            </div>
+            <h4 className="display-4">Skills</h4>
+            <p>React</p>
+            <ProgressBar striped variant="success" now={60} />
+            <p>React Native</p>
+            <ProgressBar striped variant="info" now={30} />
+            <p>Redux</p>
+            <ProgressBar striped variant="warning" now={50} />
+            <p>MobX</p>
+            <ProgressBar striped variant="danger" now={20} />
         </div>
     );
 }
-
 
 
 

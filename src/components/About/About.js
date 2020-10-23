@@ -4,9 +4,9 @@ import './style.scss';
 const About = () => {
     return (
         <div id='about'>
-            <h1>About</h1>
+            <h4 className="display-4">About</h4>
             <p>
-                loremLabore tempor enim magna cillum ipsum eu irure ea est.
+                Lorem labore tempor enim magna cillum ipsum eu irure ea est.
                 Tempor nisi in ad dolor laboris. Voluptate Lorem velit est sit.
                 Elit velit pariatur anim anim nisi consequat ea culpa incididunt
                 in Lorem ullamco ipsum exercitation. Irure ex amet Lorem reprehenderit

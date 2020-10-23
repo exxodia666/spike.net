@@ -1,10 +1,11 @@
 import React from 'react';
-import kpi from '../pics/kpi.jpg'
+import kpi from '../../pics/kpi.jpg'
+import './style.scss';
 
 const Education = () => {
     return (
         <div id='education'>
-            Education
+            <h4 className="display-4">Education</h4>
             <img
                 className="d-block w-100"
                 src={kpi}

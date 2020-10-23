@@ -1,10 +1,10 @@
 import React from 'react';
-import NavbarComponent from './components/Navbar'
+import NavbarComponent from './components/Navbar/Navbar'
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Contacts from './components/Contacts';
+import Education from './components/Education/Education';
+import Projects from './components/Projects/Projects';
+import Contacts from './components/Contacnts/Contacts';
 import './App.scss';
 import { Container } from 'react-bootstrap';
 
