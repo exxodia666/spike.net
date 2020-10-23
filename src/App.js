@@ -15,10 +15,12 @@ function App() {
       <NavbarComponent />
       <Container>
         <About />
+        {/*
         <Skills />
         <Education />
         <Projects />
         <Contacts />
+        */}
       </Container>
     </>
   );

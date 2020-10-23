@@ -15,7 +15,6 @@ const Projects = () => {
     return (
         <div id='projects'>
             <h4 className="display-4">Projects</h4>
-
             <Carousel prevIcon={<span aria-hidden="false"
                 style={{ backgroundColor: 'black' }}
                 className="carousel-control-prev-icon"
@@ -27,7 +26,7 @@ const Projects = () => {
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="d-block w-50"
+                            className="w-25 h-25 "
                             src={weather}
                             alt="First slide"
                         />
@@ -36,7 +35,7 @@ const Projects = () => {
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="d-block w-50"
+                            className="w-25 h-25 "
                             src={weather1}
                             alt="Third slide"
                         />
@@ -45,7 +44,8 @@ const Projects = () => {
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="d-block w-50"
+                            className="w-25 h-25 "
+                            //height='50em'
                             src={weather2}
                             alt="Third slide"
                         />
@@ -54,7 +54,7 @@ const Projects = () => {
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="d-block w-50 h-25"
+                            className="w-25 h-25 "
                             src={weather3}
                             alt="Third slide"
                         />
