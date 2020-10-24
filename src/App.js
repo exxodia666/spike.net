@@ -17,9 +17,10 @@ function App() {
         <About />
 
         <Skills />
+        <Projects />
         {/*
         <Education />
-        <Projects />
+        
         <Contacts />
         */}
       </Container>
