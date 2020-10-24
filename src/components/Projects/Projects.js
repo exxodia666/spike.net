@@ -26,36 +26,49 @@ const Projects = () => {
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="w-25 h-25 "
+                            className="w-25 h-25 img"
                             src={weather}
                             alt="First slide"
                         />
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="w-25 h-25 "
+                            className="w-25 h-25 img"
+                            //height='50em'
+                            src={weather2}
+                            alt="Third slide"
+                        />
+                        <img
+                            className="w-25 h-25 img"
                             src={weather1}
                             alt="Third slide"
                         />
                     </div>
                 </Carousel.Item>
+            </Carousel>
+
+            <Carousel prevIcon={<span aria-hidden="false"
+                style={{ backgroundColor: 'black' }}
+                className="carousel-control-prev-icon"
+            />}
+                nextIcon={<span aria-hidden="false"
+                    style={{ backgroundColor: 'black', color: 'red' }}
+                    className="carousel-control-next-icon"
+                />}>
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="w-25 h-25 "
+                            className="w-25 h-25 img"
+                            src={weather}
+                            alt="First slide"
+                        />
+                        <img
+                            className="w-25 h-25 img"
                             //height='50em'
                             src={weather2}
                             alt="Third slide"
                         />
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="w-25 h-25 "
-                            src={weather3}
+                            className="w-25 h-25 img"
+                            src={weather1}
                             alt="Third slide"
                         />
                     </div>
