@@ -26,53 +26,31 @@ const Projects = () => {
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="w-25 h-25 img"
-                            src={weather}
+                            className="w-100"
                             alt="First slide"
+                            src={pic1}
                         />
-                        <img
-                            className="w-25 h-25 img"
-                            //height='50em'
-                            src={weather2}
-                            alt="Third slide"
-                        />
-                        <img
-                            className="w-25 h-25 img"
-                            src={weather1}
-                            alt="Third slide"
-                        />
-                    </div>
+                    </div> <Carousel.Caption>
+                        <h5>Weather forecast</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
 
-            <Carousel prevIcon={<span aria-hidden="false"
-                style={{ backgroundColor: 'black' }}
-                className="carousel-control-prev-icon"
-            />}
-                nextIcon={<span aria-hidden="false"
-                    style={{ backgroundColor: 'black', color: 'red' }}
-                    className="carousel-control-next-icon"
-                />}>
+
                 <Carousel.Item>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img
-                            className="w-25 h-25 img"
-                            src={weather}
+                            className="w-100"
                             alt="First slide"
-                        />
-                        <img
-                            className="w-25 h-25 img"
-                            //height='50em'
-                            src={weather2}
-                            alt="Third slide"
-                        />
-                        <img
-                            className="w-25 h-25 img"
-                            src={weather1}
-                            alt="Third slide"
+                            src={pic1}
                         />
                     </div>
+                    <Carousel.Caption>
+                        <h5>Mini Gallery</h5>
+                        <p>MobX</p>
+                    </Carousel.Caption>
                 </Carousel.Item>
+
             </Carousel>
         </div>
     );
