@@ -28,7 +28,7 @@ const Projects = () => {
                         <img
                             className="w-100"
                             alt="First slide"
-                            src={pic1}
+                            src={weather}
                         />
                     </div> <Carousel.Caption>
                         <h5>Weather forecast</h5>
