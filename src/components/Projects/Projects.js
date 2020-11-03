@@ -1,8 +1,7 @@
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import './style.scss';
 import weather from '../../pics/weather/weather.png'
-//import gallery from '../../pics/gallery/gallery.png'
 
 const Projects = () => {
     return (
@@ -16,10 +15,7 @@ const Projects = () => {
                             alt="First slide"
                             src={weather}
                         />
-                    </div> <Carousel.Caption>
-                      {/*  <h5>Weather forecast</h5>
-                        {/*<p>Description</p>*/}
-                    </Carousel.Caption>
+                    </div>
                 </Carousel.Item>
 
 
@@ -31,11 +27,8 @@ const Projects = () => {
                             src={weather}
                         />
                     </div>
-                    <Carousel.Caption>
-                       {/* <h5>Mini Gallery</h5>
-                        {/*<p>Description</p>*/}
-                    </Carousel.Caption>
                 </Carousel.Item>
+
 
             </Carousel>
         </div>
