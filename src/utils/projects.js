@@ -1,9 +1,2 @@
-export default projects = [
-    {
-
-    },
-    {
-
-    },
-]
-    
+const projects = [{}, {}];
+export default projects;
